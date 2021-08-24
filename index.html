@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- main Css -->
+    <link rel="stylesheet" href="style.css">
+    <title>JS Book List</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="display-4 text-center text-info bg-dark">JS BOOK LIST</h1>
+    </header>
+
+    <main>
+        <div class="mb-3 row mt-4 mx-auto">
+            <label for="inputTitle" class=" title display-2">Title</label>
+            <div class="col-sm-12">
+                <input type="Title" class="form-control w-50" id="inputTitle">
+            </div>
+        </div>
+        <div class="mb-3 row mt-4 mx-auto">
+            <label for="inputAuthor" class=" title display-2">Author</label>
+            <div class="col-sm-12">
+                <input type="Author" class="form-control w-50" id="inputAuthor">
+            </div>
+        </div>
+        <div class="mb-3 row mt-4 mx-auto">
+            <label for="inputYear" class=" title display-2">Year</label>
+            <div class="col-sm-12">
+                <input type="Year" class="form-control w-50" id="inputYear">
+            </div>
+        </div>
+
+        <button type="button" id="add-btn" class="btn btn-primary">Add List</button>
+
+
+        <section class="container">
+            <table class="table">
+                <thead>
+                    <tr>
+
+                        <th scope="col">Title</th>
+                        <th scope="col">Author</th>
+                        <th scope="col">Year</th>
+                    </tr>
+                </thead>
+                <tbody id='book-list'>
+
+
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
